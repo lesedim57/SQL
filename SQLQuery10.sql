@@ -1,0 +1,1 @@
+select [My number] = 1,[My Name] ='Sedi'
