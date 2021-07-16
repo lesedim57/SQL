@@ -1,2 +1,14 @@
-select [Product Name] = [Name], [List Price$$] = [ListPrice]
-from AdventureWorks2019.[Production].[Product]
+SELECT  
+      [PersonType]
+      ,[NameStyle]
+      ,[Title]
+      ,[FirstName]
+      ,[MiddleName]
+      ,[LastName]
+      ,[Suffix]
+      ,[EmailPromotion]
+      ,[AdditionalContactInfo]
+      ,[Demographics]
+      ,[ModifiedDate]
+  FROM [AdventureWorks2019].[Person].[Person]
+  where Title IS NOT NULL
